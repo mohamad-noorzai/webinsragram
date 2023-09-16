@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INSTAGRAM Y</title>
+    <link rel="stylesheet" href="css2/in.css">
+</head>
+<body>
+    <a href="inshtml/m.html"></a>
+    <h1>WELCOME TO PAGE INSTAGRAM</h1>
+    <br>
+    <p>
+     لطفا اطلاعات خود را صحیح وارد کنید 
+     تا بدرستی وارد شوید و بعدا به راحتی اطلاعات پیج خود را پیدا 
+     کنید 
+    </p>
+    <br>
+    <form action="inshtml/m.html">
+        <div>
+            <label for="textId">نام :</label>
+            <input type="text" placeholder="Enter your name..."
+            id="textId" name="textName" required>
+        </div>
+        <br>
+        <div>
+            <label for="txteId">فامیلی :</label>
+            <input type="text" placeholder="Enter your family"
+            id="txteId" name="familyName">
+        </div>
+        <br>
+        <div>
+            <label for="passId">رمز :</label>
+        <input type="password" id="passId" name="passName" 
+        placeholder="Enter your password..." maxlength="5" required>
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="fGenderId" name="gender" value="female">
+            <label for="fGenderId">خانم</label>
+            <input type="radio" id="mGenderId" name="gender" value="male">
+            <label for="mGenderId">مرد</label>
+            <input type="radio" id="iGenderId" name="gender" value="I want to remain anonymous">
+            <label for="iGenderId">نمیخواهم احراز هویت کنم </label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="englishName" id="englishId" value="english">
+            <label for="englishName">English</label>
+            <input type="checkbox" name="farsiName" id="farsiId" value="farsi">
+            <label for="farsiName">فارسی </label>
+            <input type="checkbox" name="otherName" id="otherId" value="other">
+            <label for="otherName">غیره</label>
+        </div>
+        <br>
+        <div>
+            <label for="selectId"></label>
+            <select name="selectName" id="selectId">
+                <option value="18">age 18</option>
+                <option value="28">age 28</option>
+                <option value="30">age 30</option>
+                <option value="32">age 32</option>
+                <option value="32">age 40</option>
+                <option value="32">age 45</option>
+                <option value="32">age 50</option>
+                <option value="32">age 52</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="textarea" id="textareaId" cols="30" rows="10" placeholder="Your description...!"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="ثبت">
+            <input type="reset" value="انصراف">
+        </div>
+    </form>
+</body>
+</html>
